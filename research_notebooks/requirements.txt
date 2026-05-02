@@ -1,0 +1,12 @@
+# requirements for notebook
+imblearn
+joblib
+jupyterlab
+kagglehub
+matplotlib
+numpy
+pandas
+seaborn
+scikit-learn
+scipy
+shap

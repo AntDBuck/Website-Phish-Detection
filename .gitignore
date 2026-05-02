@@ -1,0 +1,9 @@
+# Ignore virtual environments, notebook checkpoints, and caches.
+.venv/
+.ipynb_checkpoints/
+__pycache__/
+
+# Ignore CSV results, CSV URL dataset, and images.
+saved_data/data_results/
+saved_data/datasets/
+saved_data/figures/
