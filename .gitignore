@@ -5,3 +5,4 @@ __pycache__/
 
 # Ignore random search objects and models.
 saved_data/trained_models/
+saved_data/datasets/
