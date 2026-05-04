@@ -3,6 +3,8 @@
 .ipynb_checkpoints/
 __pycache__/
 
-# Ignore random search objects and models.
-saved_data/trained_models/
+# Ignore URL dataset.
 saved_data/datasets/
+
+# Ignore random search objects and models but include empty directory.
+saved_data/trained_models/*.pkl
