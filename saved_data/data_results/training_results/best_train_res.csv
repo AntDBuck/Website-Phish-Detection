@@ -1,0 +1,7 @@
+Model,Training Recall,Mean Validation Recall
+bal_dt,0.98,0.94
+imbal_dt,0.97,0.93
+bal_rf,0.97,0.96
+imbal_rf,0.95,0.91
+bal_gb,1.0,0.97
+imbal_gb,1.0,0.82

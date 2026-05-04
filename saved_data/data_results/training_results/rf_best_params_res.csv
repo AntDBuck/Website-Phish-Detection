@@ -1,0 +1,3 @@
+Model,criterion,max_depth,max_features,min_samples_leaf,min_samples_split,n_estimators,class_weight
+bal_rf,gini,48,sqrt,3,24,630,
+imbal_rf,gini,17,log2,49,60,349,balanced_subsample
