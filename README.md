@@ -8,7 +8,7 @@ This project is for my final year dissertation. It consists of two primary parts
 
 - Dashboard on research results and a URL phishing detector tool.
 
-Once all dependencies are installed, the entire project is approximately 1.5 GB large.
+Once all dependencies are installed and the Jupyter Lab notebooks are run, the entire project is approximately 1.5 GB large.
 
 Please read through all sections to understand how to run both the research notebooks and dashboard.
 
