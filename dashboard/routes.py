@@ -1,7 +1,6 @@
 from pathlib import Path
 
 # Define root directory location.
-# Note: start streamlit from dashboard directory.
 root = Path(__file__).resolve().parents[1]
 
 # Define various routes.

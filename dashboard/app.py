@@ -1,17 +1,20 @@
 import streamlit as st
 
+import sys
+
+from routes import root
+
+sys.path.insert(0, str(root))
+
+from routes import detector, pages
+
+from detector_checker import check_detector_exists
+
 # Set page to wide format.
 st.set_page_config(layout = 'wide')
 
-import sys
-
-from pathlib import Path
-
-# Set root and add to Python path search.
-project_root = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(project_root))
-
-from routes import pages
+# Check detector model has been downloaded and placed in correct directory.
+check_detector_exists(detector)
 
 # Define pages from page files.
 home = st.Page(str(pages/'home.py'), title = 'Home', icon = '🏠')
