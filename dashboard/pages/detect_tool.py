@@ -1,5 +1,12 @@
 import streamlit as st
 
+from routes import detector
+
+from detector_checker import check_detector_exists
+
+# Check detector model has been downloaded and placed in correct directory.
+check_detector_exists(detector)
+
 # Show message while waiting for resouces to load.
 load_msg = st.empty()
 load_msg.info('Loading Resources, Please Wait...')

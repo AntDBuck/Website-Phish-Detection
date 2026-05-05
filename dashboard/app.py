@@ -6,15 +6,10 @@ from routes import root
 
 sys.path.insert(0, str(root))
 
-from routes import detector, pages
-
-from detector_checker import check_detector_exists
+from routes import pages
 
 # Set page to wide format.
 st.set_page_config(layout = 'wide')
-
-# Check detector model has been downloaded and placed in correct directory.
-check_detector_exists(detector)
 
 # Define pages from page files.
 home = st.Page(str(pages/'home.py'), title = 'Home', icon = '🏠')
