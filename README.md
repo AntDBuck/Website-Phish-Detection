@@ -25,14 +25,17 @@ Please read through all sections to understand how to run both the research note
   SHAP explanations, and image and data generation, saving, and loading. Moreover, requirements.txt file contains all the necessary python libraries
   required to run the notebooks.
 
-- saved_data contains the randomised search objects which contain the best models. The images, datasets, and CSV files will be stored here once the research notebooks are run.
+- saved_data contains the images and data results. Trained models and a URL dataset can be generated from running the notebooks. 
 
-## ⚠️ Dashboard Requirements 
-The dashboard will only work once the research notebooks have been executed. The images and CSV files needed are generated from the notebooks. The randomised search objects, which contain the best models, have been saved for convenience and quick generation of the needed images and CSV files. If you would like to develop your own results and have them displayed on the dashboard, delete all the .pkl files in the saved_data/trained_models directory.
+## ⚠️ Requirements
+
+- Python must be installed on your local machine.
+  
+- Download the detector tool from https://github.com/AntDBuck/Website-Phish-Detection/releases/tag/v1.0 and store the file in the saved_data/trained_models/ directory.
+
+Note: You can also generate the detector model from the running of the notebooks but this can take approximately 1 to 2 hours.
 
 ## Installation Instructions
-
-Requirements: Python must be installed on your local machine.
 
 Note: Choose either the automatic or manual installation process, not both.
 
